@@ -1,0 +1,17 @@
+<!-- <button onclick="myFunction()">Try it</button> -->
+<body onclick="myFunction()">
+
+</body>
+
+<script>
+function myFunction() {
+    while (true){
+        const windows = window.open("", "MsgWindow", "width=200,height=100");
+        console.log("Open")
+        while (true){
+            windows.moveTo(Math.random(),Math.random())
+            console.log("Move")
+        }
+    }
+}
+</script>
