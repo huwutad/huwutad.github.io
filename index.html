@@ -8,22 +8,98 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
-        .links button {
-            display: inline-flex;
-            font-size: 100%;
-            align-items: center;
-            padding: 13px 20px;
-            margin: 8px;
-            text-decoration: none;
-            background-color: #fff;
-            color: #333;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            transition: background-color 0.3s ease;
-            border: none;
-            cursor: pointer;
-
+            body {
+                font-family: sans-serif;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                margin: 0;
+                background-color: #1d232a; 
             }
+
+            .container {
+                text-align: center;
+                border-color: red;
+                border: 1;
+            }
+
+            .image img {
+                width: 150px;
+                height: 150px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-bottom: 20px;
+                border: 4px solid #515aae;
+                padding: 4px;
+            
+            }
+            
+            .profile h1 {
+                background: linear-gradient(to right,#05609b, #01e496 65%);
+                color: transparent;
+                background-clip: text;
+                
+            }
+            
+            .profile p {
+                color: white;
+            }
+            
+            .links a {
+                display: inline-block;
+                padding: 10px 20px;
+                margin: 5px;
+                text-decoration: none;
+                background-color: #007bff;
+                color: white;
+                border-radius: 5px;
+            }
+            
+            .links a {
+                display: inline-flex;
+                align-items: center;
+                padding: 12px 25px;
+                margin: 8px;
+                text-decoration: none;
+                background-color: #fff;
+                color: #333;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                transition: background-color 0.3s ease;
+            }
+            
+            .links button {
+                display: inline-flex;
+                font-size: 100%;
+                align-items: center;
+                padding: 13px 20px;
+                margin: 8px;
+                text-decoration: none;
+                background-color: #fff;
+                color: #333;
+                border-radius: 8px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                transition: background-color 0.3s ease;
+                border: none;
+                cursor: pointer;
+            
+            }
+            
+            .links button:hover {
+                cursor: pointer;
+                background-color: #f0f0f0;
+            }
+            
+            .links a:hover {
+                background-color: #f0f0f0;
+            }
+            
+            .links i {
+                margin-right: 10px;
+                font-size: 1.2em;
+            }
+
     </style>
 </head>
 
