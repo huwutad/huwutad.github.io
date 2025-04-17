@@ -60,7 +60,6 @@ body {
 }
 
 .links button {
-    cursor: pointer;
     display: inline-flex;
     align-items: center;
     padding: 12px 25px;
@@ -76,6 +75,7 @@ body {
 }
 
 .links button:hover {
+    cursor: pointer;
     background-color: #f0f0f0;
 }
 
